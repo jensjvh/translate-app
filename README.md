@@ -4,7 +4,7 @@ A small Flask app using https://huggingface.co/Helsinki-NLP/opus-mt-en-fi to tra
 
 ## Testing and development
 
-Get [uv](https://docs.astral.sh/uv/). Then run:
+Get [uv](https://docs.astral.sh/uv/) and run:
 
 ```bash
 uv run flask --app src/index.py run
