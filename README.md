@@ -1,6 +1,6 @@
 # TranslateApp
 
-A small Flask app using https://huggingface.co/Helsinki-NLP/opus-mt-en-fi to translate Finnish input text to English.
+A small Flask app using https://huggingface.co/Helsinki-NLP/opus-mt-en-fi to translate English input to Finnish.
 
 ## Testing and development
 
