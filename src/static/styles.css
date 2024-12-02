@@ -4,6 +4,17 @@
 }
 
 body {
-    margin: auto;
+    margin: 10em auto auto auto;
     max-width: 70em;
+    background-color: wheat;
+}
+
+.align-center {
+    text-align: center;
+}
+
+#dataInput {
+    border: solid linen;
+    border-radius: 1em;
+    padding: 0.3em;
 }

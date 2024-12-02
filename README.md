@@ -7,5 +7,11 @@ A small Flask app using https://huggingface.co/Helsinki-NLP/opus-mt-en-fi to tra
 Get [uv](https://docs.astral.sh/uv/) and run:
 
 ```bash
+uv sync
+```
+
+Then launch the app with:
+
+```bash
 uv run flask --app src/index.py run
 ```

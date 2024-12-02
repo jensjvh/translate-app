@@ -11,9 +11,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="/" method="post">
-        <textarea id="dataInput" name="dataInput" rows="4" cols="50"></textarea>
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="align-center">
+        <h1> English to Finnish translator using opus-mt-en-fi</h1>
+        <p>Enter the text you want to translate into the box below</p>
+        <form action="/" method="post">
+            <textarea id="dataInput" name="dataInput" rows="10" cols="50">{{ prompt }}</textarea>
+            <br>
+            <input type="submit" value="Translate">
+        </form>
+        <div class="output-box">
+            {% if output %}
+                <p>Translation: {{ output }}</p>
+            {% endif %}
+        </div>
+    </div>
 </body>
