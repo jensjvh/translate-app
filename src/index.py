@@ -17,7 +17,7 @@ def index():
     output = None
     if request.method == "POST":
         input_text = request.form['dataInput']
-        if len(input_text) == 0:
+        if len(input_text) == 0 or input_text.isspace():
             return render_template("index.html", output="Please enter some text.")
         result = pipe(input_text)
         output = result[0]['translation_text']
