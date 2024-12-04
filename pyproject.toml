@@ -1,7 +1,7 @@
 [project]
 name = "translate-app"
 version = "0.1.0"
-description = "Add your description here"
+description = "An app for translating English to Finnish with Helsinki-NLP/opus-mt-en-fi"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -9,8 +9,7 @@ dependencies = [
     "requests>=2.32.3",
     "sacremoses>=0.1.1",
     "sentencepiece>=0.2.0",
-    "tensorflow>=2.18.0",
-    "tf-keras>=2.18.0",
+    "torch>=2.5.1",
     "transformers>=4.46.3",
 ]
 

@@ -9,7 +9,7 @@ A small Flask app using https://huggingface.co/Helsinki-NLP/opus-mt-en-fi to tra
 
 ## Running and developing the app
 
-First, create a virtual environment.
+First, clone the repository to your local machine, go to the cloned directory and create and enter a virtual environment.
 
 Get [uv](https://docs.astral.sh/uv/), for example with the command
 
